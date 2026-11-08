@@ -1,0 +1,16 @@
+# Never commit game data or anything derived from it
+*.nes
+*.sav
+*.zrs
+# Generated from your ROM by Tools/recompile.py (contains translated game code) — keep the placeholder only
+Sources/NESCore/generated/*
+!Sources/NESCore/generated/recomp_gen.c
+# Build output
+.build/
+build/
+build.log
+out/
+*.tgz
+__pycache__/
+.DS_Store
+.swiftpm/
